@@ -7,7 +7,7 @@ def call(Map configMap){
         }
         environment { 
             packageVersion = ''
-            nexusURL = '172.31.5.95:8081'
+            nexusURL = '172.31.45.24:8081'
         }
         options {
             timeout(time: 1, unit: 'HOURS')
